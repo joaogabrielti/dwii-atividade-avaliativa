@@ -1,0 +1,9 @@
+html, body {
+    font-family: 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+table.table th, table.table td {
+    white-space: nowrap;
+}
+table.table td a {
+    cursor: pointer;
+}

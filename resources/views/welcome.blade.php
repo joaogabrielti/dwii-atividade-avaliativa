@@ -15,7 +15,7 @@
         </a>
     </div>
     <div class="col-6 col-md-3">
-        <a class="d-flex flex-column align-items-center link-secondary text-decoration-none" href="">
+        <a class="d-flex flex-column align-items-center link-secondary text-decoration-none" href="{{ route('turma.index') }}">
             <img class="img-fluid" src="{{ asset('images/turma_ico.png') }}">
             <span class="fs-5 fw-bold">Turmas</span>
         </a>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComponenteController;
 use App\Http\Controllers\CursoController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('', function () { return view('welcome'); })->name('index');
 
 Route::resource('curso', CursoController::class);
+Route::resource('componente', ComponenteController::class);

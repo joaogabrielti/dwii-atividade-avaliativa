@@ -9,7 +9,7 @@
         </a>
     </div>
     <div class="col-6 col-md-3">
-        <a class="d-flex flex-column align-items-center link-secondary text-decoration-none" href="">
+        <a class="d-flex flex-column align-items-center link-secondary text-decoration-none" href="{{ route('componente.index') }}">
             <img class="img-fluid" src="{{ asset('images/componente_ico.png') }}">
             <span class="fs-5 fw-bold">Componentes</span>
         </a>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComponenteController;
 use App\Http\Controllers\CursoController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -20,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('curso', CursoController::class);
+Route::apiResource('componente', ComponenteController::class);

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="row g-2">
+<div class="row g-2 mt-4">
     <div class="col-6 col-md-3">
         <a class="d-flex flex-column align-items-center link-secondary text-decoration-none" href="{{ route('curso.index') }}">
             <img class="img-fluid" src="{{ asset('images/curso_ico.png') }}">
@@ -21,7 +21,7 @@
         </a>
     </div>
     <div class="col-6 col-md-3">
-        <a class="d-flex flex-column align-items-center link-secondary text-decoration-none" href="">
+        <a class="d-flex flex-column align-items-center link-secondary text-decoration-none" href="{{ route('disciplina.index') }}">
             <img class="img-fluid" src="{{ asset('images/disciplina_ico.png') }}">
             <span class="fs-5 fw-bold">Disciplinas</span>
         </a>

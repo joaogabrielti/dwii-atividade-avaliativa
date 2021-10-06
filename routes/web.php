@@ -3,6 +3,7 @@
 use App\Http\Controllers\ComponenteController;
 use App\Http\Controllers\CursoController;
 use App\Http\Controllers\TurmaController;
+use App\Http\Controllers\DisciplinaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,4 @@ Route::get('', function () { return view('welcome'); })->name('index');
 Route::resource('curso', CursoController::class);
 Route::resource('componente', ComponenteController::class);
 Route::resource('turma', TurmaController::class);
+Route::resource('disciplina', DisciplinaController::class);

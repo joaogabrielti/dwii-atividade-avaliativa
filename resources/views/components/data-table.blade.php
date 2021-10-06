@@ -29,6 +29,10 @@
                 <td class="text-center">
                     <a nohref class="link-secondary mx-1" onclick="show({{ $obj->id }})"><i class="bi bi-info-circle-fill"></i></a>
                     <a nohref class="link-secondary mx-1" onclick="edit({{ $obj->id }})"><i class="bi bi-pencil-fill"></i></a>
+                    @if ($model == 'disciplina')
+                        <a nohref class="link-secondary mx-1" onclick="editPesos({{ $obj->id }})"><i class="bi bi-gear-fill"></i></a>
+                        <a nohref class="link-secondary mx-1" onclick="editConceitos({{ $obj->id }})"><i class="bi bi-bookmark-check-fill"></i></a>
+                    @endif
                 </td>
             </tr>
             @endforeach
